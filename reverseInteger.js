@@ -12,11 +12,16 @@ function reverse(x) {
   }else {
     result = reversePositiveNumber(x);
   }
-  if(-(Math.pow(2, 31))<result<(Math.pow(2,31)-1)){
+  const left = -(Math.pow(2, 31));
+  const right = (Math.pow(2,31)-1);
+  console.log(left);
+  console.log(right);
+
+  if(left<=result&&result<=right){
     return result;
   }
 
-  return result;
+  return 0;
 
 
   function reverseString(s){
@@ -33,5 +38,7 @@ function reverse(x) {
 
 
 };
+
+console.log(reverse(1534236469));
 
 //通过leetcode测试  https://leetcode-cn.com/problems/reverse-integer/description/
