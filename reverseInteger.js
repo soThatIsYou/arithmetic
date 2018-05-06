@@ -33,3 +33,5 @@ function reverse(x) {
 
 
 };
+
+//通过leetcode测试  https://leetcode-cn.com/problems/reverse-integer/description/
