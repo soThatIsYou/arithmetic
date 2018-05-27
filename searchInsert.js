@@ -29,3 +29,4 @@ var searchInsert = function(nums, target) {
 
 
 //foreach 不能用return/break 跳出循环
+//https://leetcode-cn.com/problems/search-insert-position/description/ 通过测试
